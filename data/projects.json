@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Agustine",
+        "image_url": "https://i.ibb.co/822psdy/agustine.jpg",
+        "live_web": "https://five-star-hotel-p.web.app/",
+        "git_hub": "https://github.com/itsmiraz/agustine-hotel-",
+        "tech": [
+            "ReactJS",
+            "React Router",
+            "Tailwind",
+            "Firebase",
+            "JWT",
+            "Daisy UI"
+        ],
+        "details": "This is my Most Recent Project.This is Besically a website for a five star hotel.It has different types of feature such as this site is fully responsive.I use mongodb for database.JWT for secure the data."
+    },
+    {
+        "title": "Learning Hero",
+        "live_web": "https://learning-hero-ass.web.app/",
+        "git_hub": "https://github.com/itsmiraz",
+        "image_url": "https://i.ibb.co/kXCTcnm/Learning-Hero.jpg",
+        "tech": [
+            "ReactJS",
+            "React Router",
+            "Tailwind",
+            "Firebase",
+            "Daisy UI"
+        ],
+        "details": "This is Besically a website for E-Learning.It has different types of feature such as this site is fully responsive.I use mongodb for database.JWT for secure the data."
+    },
+    {
+        "title": "Dev-Quiz",
+        "image_url": "https://i.ibb.co/C8Ghh6c/dev-quiz.jpg",
+        "live_web": "https://dev-quiz-miraj.netlify.app/",
+        "git_hub": "https://github.com/itsmiraz",
+        "tech": [
+            "ReactJS",
+            "React Router",
+            "Tailwind",
+            "Firebase",
+            "Daisy UI"
+        ],
+        "details": "This is Besically a Quiz website.It has different types of feature such as this site is fully responsive.I use mongodb for database.JWT for secure the data."
+    },
+    {
+        "image_url": "https://i.ibb.co/0cXmyQc/dragon-news.jpg",
+        "title": "Dragon News",
+        "live_web": "https://dragon-news-714ab.web.app/",
+        "git_hub": "https://github.com/itsmiraz",
+        "tech": [
+            "ReactJS",
+            "React Router",
+            "Bootstrap",
+            "Firebase"
+        ],
+        "details": "This is News Website.This site has different types of of feature such as this site is fully responsive.I use mongodb for database.JWT for secure the data."
+    },
+    {
+        "image_url": "https://i.ibb.co/PmWGcBw/uni-tech.jpg",
+        "title": "UNI-TECH",
+        "live_web": "https://unitech-landing-page.netlify.app/",
+        "git_hub": "https://github.com/itsmiraz/uni-tech-a",
+        "tech": [
+            "HTML5",
+            "CSS",
+            "Bootstrap",
+            "Javascript"
+        ],
+        "details": "This is News Website.This site has different types of of feature such as this site is fully responsive.I use mongodb for database.JWT for secure the data."
+    }
+]
