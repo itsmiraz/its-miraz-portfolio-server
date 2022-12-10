@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express()
 const port = process.env.PORT || 5000;
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config()
 
 app.use(cors())
@@ -17,12 +17,28 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         const projectCollection = client.db('PortFolioPorject').collection('projects')
+
+
+        // All Projects
         app.get('/projects', async (req, res) => {
             const query = {}
             const cursor = projectCollection.find(query)
             const result = await cursor.toArray()
             res.send(result)
         })
+        // app.get('/delete', async (req, res)=>{
+        //     const query = {}
+        //     const result = await projectCollection.deleteMany(query)
+        //     res.send(result)
+        // })
+        // Single Projects API
+        app.get('/projects/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) }
+            const result = await projectCollection.findOne(query)
+            res.send(result)
+        })
+
     }
     finally {
 
