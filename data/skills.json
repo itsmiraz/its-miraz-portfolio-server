@@ -1,0 +1,25 @@
+[
+ { "name":"HTML",
+    "img":"https://i.ibb.co/VYzFFRN/HTMl.jpg"},
+ { "name":"CSS",
+    "img":"https://i.ibb.co/Y806f44/Css.jpg"},
+ { "name":"React",
+    "img":"https://i.ibb.co/tD68Qcy/React.jpg"},
+ { "name":"Javascript",
+    "img":"https://i.ibb.co/vhy3sSF/Javascripts.jpg"},
+ { "name":"Tailwind",
+    "img":"https://i.ibb.co/DtsKXLV/tailwind.jpg"},
+ { "name":"MongoDB",
+    "img":"https://i.ibb.co/GVX1Tjf/MongoDB.jpg"},
+ { "name":"NodeJS",
+    "img":"https://i.ibb.co/1RkLRFV/NodeJS.jpg"},
+ { "name":"Bootstrap",
+    "img":"https://i.ibb.co/42wBmYK/Bootsrtap.jpg"},
+ { "name":"Firebase",
+    "img":"https://i.ibb.co/StmLz3G/Firebase.jpg"},
+ { "name":"Netlify",
+    "img":"https://i.ibb.co/PGvpKpF/Netlify.jpg"},
+ { "name":"Github",
+    "img":"https://i.ibb.co/f1PDYKS/GIThub.jpg"}
+ 
+]
